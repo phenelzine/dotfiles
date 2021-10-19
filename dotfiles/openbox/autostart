@@ -1,0 +1,14 @@
+#Keyboard IT#
+setxkbmap it&
+
+#tint2 panel#
+tint2&
+
+#wallpaper restore#
+nitrogen --restore &
+
+#essential applications#
+urxvt -e /usr/bin/zsh &
+
+#polkit (LXSession)#
+lxsession &
