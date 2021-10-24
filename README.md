@@ -11,7 +11,7 @@ dunst
 libnotify   
 bash   
 zsh   
-
+rxvt-unicode   
 
 ### *(Optional)* ###   
 nitrogen
