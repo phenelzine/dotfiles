@@ -15,6 +15,6 @@ zsh
 rxvt-unicode   
 
 ### *(Optional)* ###   
-nitrogen
+nitrogen   
 polkit   
 lxsession   
