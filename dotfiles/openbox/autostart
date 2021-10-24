@@ -1,5 +1,5 @@
-#Keyboard IT#
-setxkbmap it&
+
+#if you don't use some of the programs listed change this file to suit your needs#
 
 #tint2 panel#
 tint2&
@@ -7,7 +7,7 @@ tint2&
 #wallpaper restore#
 nitrogen --restore &
 
-#essential applications#
+#URxvt terminal with zsh shell#
 urxvt -e /usr/bin/zsh &
 
 #polkit (LXSession)#
