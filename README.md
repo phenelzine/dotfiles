@@ -3,6 +3,9 @@ A not so good openbox/tint2 enviornment. If anyone for any reason finds this tra
 This is my first attempt at publishing my bad dotfiles.
 (better tested on archlinux, hence the .xnitrc for startx login (if you want to test this without startx just delete those files and .bash_profile)
 
+
+#### [place the first four folders in your '.config' directory and leave .zshrc and .bashrc in home/] ####
+
 ## *''Dependencies'' (required)* ##   
 
 openbox   
