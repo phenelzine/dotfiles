@@ -1,4 +1,4 @@
-# this menu is customized to suit my needs. Please use a menu generetor or 'obmenu' to create you own.
+<!-- this menu is customized to suit my needs. Please use a menu generetor or 'obmenu' to create you own. -->
 <?xml version="1.0" encoding="utf-8"?>
 <openbox_menu>
 	<menu id="root-menu" label="OpenBox 3">
