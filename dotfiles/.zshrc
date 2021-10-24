@@ -19,7 +19,11 @@ alias off='poweroff'
 alias logout='openbox --exit'
 alias sync='sudo pacman -Syy'
 alias update='sudo pacman -Syu'
-alias updateaur='yay -Syu'
+#alias updateaur='yay -Syu'
+
+###colorscript at startup and after the clear command (uncomment first)###
+#alias clear='clear && colorscript -r'
+#colorscript -r
 
 
 
