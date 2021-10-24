@@ -17,5 +17,5 @@ rxvt-unicode
 nitrogen   
 polkit   
 lxsession   
-shell-color-scripts (credit: https://gitlab.com/dwt1/shell-color-scripts)
-starship prompt (credit: https://starship.rs/)
+shell-color-scripts (credit: https://gitlab.com/dwt1/shell-color-scripts)   
+starship prompt (credit: https://starship.rs/)   
