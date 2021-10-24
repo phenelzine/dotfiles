@@ -16,3 +16,5 @@ rxvt-unicode
 
 ### *(Optional)* ###   
 nitrogen
+polkit   
+lxsession   
