@@ -9,10 +9,10 @@ compinit
 
 
 #starship prompt (credit: https://starship.rs/)#
-eval "$(starship init zsh)"
+#eval "$(starship init zsh)"
 
 #thefuck command (https://github.com/nvbn/thefuck)#
-eval "$(thefuck --alias)"
+#eval "$(thefuck --alias)"
 
 #aliases#
 alias off='poweroff'
