@@ -11,6 +11,7 @@ dunst
 libnotify   
 bash   
 rxvt-unicode   
+terminus-font
 
 ### *(Optional)* ###   
 nitrogen   
