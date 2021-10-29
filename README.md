@@ -19,6 +19,7 @@ zsh
 lxsession   
 shell-color-scripts (credit: https://gitlab.com/dwt1/shell-color-scripts)   
 starship prompt (credit: https://starship.rs/)   
+pcmanfm
 
 ## Screenshots ##
 ![alt text](https://raw.githubusercontent.com/Mihail-Bogdanov/dotfiles/main/screenshots/Screenshot-1.png)   
