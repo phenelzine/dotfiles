@@ -4,12 +4,12 @@ You know where to place stuff. Below are some screenshots
 
 
 ## Screenshots ##
-![alt text](https://raw.githubusercontent.com/ZorBott/dotfiles/main/wallpapers/screenshots/Screenshot-2.png)   
+![openbox](https://raw.githubusercontent.com/ZorBott/dotfiles/main/wallpapers/screenshots/Screenshot-2.png)   
 
 
 
-![alt text](https://raw.githubusercontent.com/Mihail-Bogdanov/dotfiles/main/screenshots/Screenshot-2.png)    
+![ratpoison 1](https://raw.githubusercontent.com/ZorBott/dotfiles/main/wallpapers/screenshots/Unixporn-1.png)    
 
 
 
-![alt text](https://raw.githubusercontent.com/Mihail-Bogdanov/dotfiles/main/screenshots/Screenshot-3.png)  
+![ratpoison 2](https://raw.githubusercontent.com/ZorBott/dotfiles/main/wallpapers/screenshots/Unixporn-3.png)  
