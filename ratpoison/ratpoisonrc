@@ -1,0 +1,159 @@
+#initial configuration#
+escape Super_L
+exec killall dzen2
+startup_message off
+exec xcompmgr -c -f -D 5 &
+exec xinput set-prop "SYNA3602:00 0911:5288 Touchpad" "libinput Tapping Enabled" 1
+exec xsetroot -cursor_name left_ptr
+exec xidlehook --not-when-audio --timer 300 '/usr/local/bin/slock' '' &
+set padding 5 19 5 5 
+set barborder 0
+set wingravity center
+set bargravity center
+set transgravity center
+set border 5 
+ 
+exec ratpoison -c "banish"
+ 
+#exec /usr/share/ratpoison/sloppy 
+#set border 3
+
+#dzen2 panels (left and right)
+#exec /home/mihail/leftpanel.sh
+#exec /home/mihail/rightpanel.sh
+
+#autostart#
+#exec nitrogen --restore
+exec setxkbmap it
+exec lxsession  
+exec feh --bg-scale /usr/share/backgrounds/Morskie\ Oko.jpg
+
+#one dzen2 panel#
+exec /home/mihail/.config/panel.sh
+
+#polybar#
+#exec ~/.config/polybar/launch.sh
+
+#workspaces#
+exec /usr/bin/rpws init 9 -k
+bind 1 exec rpws 1
+bind 2 exec rpws 2
+bind 3 exec rpws 3
+bind 4 exec rpws 4
+bind 5 exec rpws 5
+bind 6 exec rpws 6
+bind 7 exec rpws 7
+bind 8 exec rpws 8
+bind 9 exec rpws 9
+bind s-1 exec rpws 1
+bind s-2 exec rpws 2
+bind s-3 exec rpws 3
+bind s-4 exec rpws 4
+bind s-5 exec rpws 5
+bind s-6 exec rpws 6
+bind s-7 exec rpws 7
+bind s-8 exec rpws 8
+bind s-9 exec rpws 9
+
+#notifications#
+set fgcolor "#f8f8f2"
+set bgcolor "#131C26"
+set font "Terminus-12"
+
+#keybindings#
+bind t exec alacritty -e /usr/bin/zsh
+bind b exec brave
+bind v exec vimiv
+bind x kill
+bind z exec oblogout
+bind o exec slock
+bind g exec geany
+bind f exec pcmanfm
+bind e exec st
+bind d exec dmenu_run
+bind B exec ./rat_bat_stat.sh
+bind s-B exec ./rat_bat_stat.sh
+bind s-a exec ratpoison -c time
+bind r exec alacritty -e ranger
+bind s-r exec alacritty -e ranger
+
+#window controls#
+bind h focusleft
+bind j focusdown
+bind k focusup
+bind l focusright
+bind p prev
+bind n next
+bind s hsplit
+bind H exchangeleft
+bind J exchangedown
+bind K exchangeup
+bind L exchangeright
+bind q only
+bind <UP> focusup
+bind <DOWN> focusdown
+bind <LEFT> focusleft
+bind <RIGHT> focusright
+bind s-R resize
+bind s-Q remove
+bind Q remove
+bind s-q slock
+bind R resize
+
+bind C-l exchangeright
+bind C-k exchangeup
+bind C-j exchangedown
+bind C-h exchangeleft
+
+bind M-1 rpwsm1 
+bind M-2 rpwsm2
+bind M-3 rpwsm3
+bind M-4 rpwsm4
+bind M-5 rpwsm5
+bind M-6 rpwsm6
+bind M-7 rpwsm7
+bind M-8 rpwsm8
+bind M-9 rpwsm9
+
+bind M-Right exec rpws next
+bind M-Left exec rpws prev
+
+#quitting and restarting#
+bind s-R restart
+bind C-M-x quit
+
+#additional bonding#
+bind s-t exec alacritty -e /usr/bin/zsh
+bind s-b exec brave
+bind s-v exec vimiv
+bind s-x kill
+bind s-z exec oblogout
+bind s-o exec slock
+bind s-g exec geany
+bind s-w exec nitrogen
+bind s-f exec pcmanfm
+bind s-e exec st
+bind s-d exec dmenu_run
+bind s-Return alacritty -e /usr/bin/zsh
+
+bind s-h focusleft
+bind s-j focusdown
+bind s-k focusup
+bind s-l focusright
+bind s-p prev
+bind s-n next
+bind s-s hsplit
+bind s-H exchangeleft
+bind s-J exchangedown
+bind s-K exchangeup
+bind s-L exchangeright
+bind s-q only
+bind s-Tab focus
+
+bind s-Up focusup
+bind s-Down focusdown
+bind s-Left focusleft
+bind s-Right focusright
+
+bind S vsplit
+bind s-S vsplit

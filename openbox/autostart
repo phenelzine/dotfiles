@@ -1,0 +1,20 @@
+#Keyboard IT#
+setxkbmap it&
+
+#tint2 panel#
+tint2&
+
+#wallpaper restore#
+nitrogen --restore &
+
+#essential applications#
+urxvt -e /usr/bin/zsh &
+
+#polkit (LXSession)#
+lxsession &
+
+#touchpad support#
+xinput set-prop "SYNA3602:00 0911:5288 Touchpad" "libinput Tapping Enabled" 1
+
+#slock after 5 minutes#
+xidlehook --not-when-audio --timer 300 '/usr/local/bin/slock' '' &
