@@ -1,25 +1,7 @@
 # DOTFILES #   
-A not so good vaporwave-themed openbox/tint2 enviornment. If anyone for any reason finds this trash, and wants to test it, the instructions and requirements are written below.    
+You know where to place stuff. Below are some screenshots 
 
-#### [place the first three folders from the 'dotfiles' directory in your '.config' directory and leave .zshrc, .Xresources and .bashrc in /home] ####
 
-## *''Dependencies'' (required)* ##   
-
-openbox   
-tint2   
-dunst   
-libnotify   
-bash   
-rxvt-unicode   
-terminus-font
-
-### *(Optional)* ###   
-nitrogen   
-zsh   
-lxsession   
-shell-color-scripts (credit: https://gitlab.com/dwt1/shell-color-scripts)   
-starship prompt (credit: https://starship.rs/)   
-pcmanfm
 
 ## Screenshots ##
 ![alt text](https://raw.githubusercontent.com/Mihail-Bogdanov/dotfiles/main/screenshots/Screenshot-1.png)   
