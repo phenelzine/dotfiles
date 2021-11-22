@@ -4,7 +4,16 @@ You know where to place stuff. Below are some screenshots
 
 
 ## Screenshots ##
+#### openbox   
+
+
+
 ![openbox](https://raw.githubusercontent.com/ZorBott/dotfiles/main/wallpapers/screenshots/Screenshot-2.png)   
+
+
+
+
+#### ratpoison   
 
 
 
