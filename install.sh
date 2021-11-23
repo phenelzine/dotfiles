@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # install yay for it to work #
 echo "yay must be installed"
 
