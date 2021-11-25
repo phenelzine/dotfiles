@@ -9,9 +9,10 @@ sudo mkdir ~/.config
 
 echo " now copy the files in the directories yourself"
 
-cd dotfiles/
 cp ratpoison $HOME
 cp openbox/ ~/.config/
 sudo cp wallpapers/ /usr/share/backgrounds
 rm README.md
-cp config/ ~/.config
+mkdir ~.config
+cp config/* ~/.config
+
