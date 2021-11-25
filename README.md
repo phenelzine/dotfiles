@@ -1,5 +1,5 @@
 # DOTFILES #   
-You know where to place stuff. Below are some screenshots 
+You know where to place stuff. Below are some screenshots. "script" not tested yet.
 
 
 
