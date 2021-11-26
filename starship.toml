@@ -1,0 +1,67 @@
+# Don't print a new line at the start of the prompt
+add_newline = true
+
+# Make prompt a single line instead of two lines
+[line_break]
+disabled = true
+
+# Replace the "❯" symbol in the prompt with "➜"
+[character]
+# The "success_symbol" segment is being set to "➜" with the color "bold green"
+# use_symbol_for_status = true
+success_symbol = "[>>](bold green)"
+error_symbol = "[X](bold red)"
+
+# Disable the package module, hiding it from the prompt completely
+[package]
+disabled = true
+
+# shows the hostname on new lines
+[hostname]
+ssh_only = false
+format = "[$hostname]($style) in "
+#style = "bold dimmed yellow"
+style = "bold blue"
+
+# configure directory
+[directory]
+format = "[$path]($style)[$read_only]($read_only_style) "
+
+[cmd_duration]
+format = "took [$duration]($style) "
+style = "bold yellow"
+disabled = false
+
+[env_var]
+format = "with [$env_value]($style) "
+
+[time]
+time_format = "%T"
+format = "at 🕙[$time]($style) "
+
+[battery]
+full_symbol = "%"
+charging_symbol = "⚡️"
+discharging_symbol = "dis "
+
+[[battery.display]]  # "bold red" style when capacity is between 0% and 10%
+threshold = 10
+style = "bold red"
+
+[[battery.display]]  # "bold yellow" style when capacity is between 10% and 30%
+threshold = 30
+style = "bold yellow"
+
+[username]
+style_user = "bold yellow"
+style_root = "bold green"
+format = "[$user]($style) at "
+disabled = false
+show_always = true
+
+[status]
+style = "bg:black"
+symbol = "()"
+format = '[\[$symbol $common_meaning$signal_name$maybe_int\]]($style) '
+map_symbol = true
+disabled = false
