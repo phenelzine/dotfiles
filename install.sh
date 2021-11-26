@@ -16,5 +16,6 @@ rm README.md
 mv config/* ~/.config
 mv starship.toml
 mv .zshrc ~/.zshrc
+mv .bashrc ~/.bashrc
 sudo systemctl enable ly
 sudo systemctl enable plymouth
