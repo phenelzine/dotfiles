@@ -7,12 +7,13 @@ yay --needed --ask 4 -Sy - < packages.txt
 
 sudo mkdir ~/.config
 
-echo " now copy the files in the directories yourself"
+echo " copying files..."
 
-cp ratpoison $HOME
-cp openbox/ ~/.config/
-sudo cp wallpapers/ /usr/share/backgrounds
+mv ratpoison/ratpoisonrc ~/.ratpoisonrc
+mv openbox/ ~/.config/
+sudo mv wallpapers/* /usr/share/backgrounds
 rm README.md
-mkdir ~.config
-cp config/* ~/.config
-
+mv config/* ~/.config
+mv starship.toml 
+sudo systemctl enable ly
+sudo systemctl enable plymouth
