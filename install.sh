@@ -14,6 +14,7 @@ mv openbox/ ~/.config/
 sudo mv wallpapers/* /usr/share/backgrounds
 rm README.md
 mv config/* ~/.config
-mv starship.toml 
+mv starship.toml
+mv .zshrc ~/.zshrc
 sudo systemctl enable ly
 sudo systemctl enable plymouth
