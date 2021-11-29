@@ -7,15 +7,16 @@ echo "network manager must be enabled"
 yay --needed --ask 4 -Sy - < packages.txt
 
 sudo mkdir ~/.config
+sudo mkdir /usr/share/backgrounds/
 
 echo " copying files..."
 
 mv ratpoison/ratpoisonrc ~/.ratpoisonrc
-mv openbox/ ~/.config/
+mv openbox/ ~/.config/openbox
 sudo mv wallpapers/* /usr/share/backgrounds/
 rm README.md
 mv config/* ~/.config
-mv starship.toml
+mv starship.toml ~/.config/
 mv .zshrc ~/.zshrc
 mv .bashrc ~/.bashrc
 sudo systemctl enable ly
