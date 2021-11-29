@@ -28,9 +28,10 @@ while true; do
 	UPTIME=$(echo "Uptime: `echo $(uptime -p)`")
 	WIFILINE=$(echo "WiFi: `echo $(iw dev wlan0 info | grep ssid | awk '{print $2}')`")
 
-	xsetroot -name "  $BATTERYLINE  |  $TIME  |  $KERNEL  |  $UPDATES  |  $WIFILINE  |  $UPTIME "
+	echo "  $BATTERYLINE  |  $TIME  |  $KERNEL  |  $UPDATES  |  $WIFILINE  |  $UPTIME "
 
 	sleep 1	
 
-done 
+done | dzen2 -h $HEIGHT -ta l -x $XPOS -w $WIDTH -h 14 -fg $FG -bg $BG -fn $FONT
+
 
