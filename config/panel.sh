@@ -20,15 +20,15 @@ CLEAN="^fg()^bg()"
 
 while true; do
 
-	XWINDOW=$(echo "Active Window: `echo $(xdotool getwindowfocus getwindowname)`")
-	TIME=$(echo "Date: `echo $(date +"%a %d %B at %R")`")
-	BATTERYLINE=$(echo "Battery: `cat /sys/class/power_supply/BAT0/capacity `%")		
-	KERNEL=$(echo "Kernel: `echo $(uname -r)`")
-	UPDATES=$(echo "Updates: `echo $(checkupdates | wc -l)`")
-	UPTIME=$(echo "Uptime: `echo $(uptime -p)`")
-	WIFILINE=$(echo "WiFi: `echo $(iw dev wlan0 info | grep ssid | awk '{print $2}')`")
+	XWINDOW=$(echo "Active Window: $PINK`echo $(xdotool getwindowfocus getwindowname)`")
+	TIME=$(echo "Date: $GREEN`echo $(date +"%a %d %B at %R")`")
+	BATTERYLINE=$(echo "Battery: $RED`cat /sys/class/power_supply/BAT0/capacity `%")		
+	KERNEL=$(echo "Kernel: $YELLOW`echo $(uname -r)`")
+	UPDATES=$(echo "Updates: $WHITE`echo $(checkupdates | wc -l)`")
+	UPTIME=$(echo "Uptime: $MAGENTA`echo $(uptime -p)`")
+	WIFILINE=$(echo "WiFi: $BLUE`echo $(iw dev wlan0 info | grep ssid | awk '{print $2}')`")
 
-	echo "  $BATTERYLINE  |  $TIME  |  $KERNEL  |  $UPDATES  |  $WIFILINE  |  $UPTIME "
+	echo "  $XWINDOW  |  $BATTERYLINE  |  $TIME  |  $KERNEL  |  $UPDATES  |  $WIFILINE  |  $UPTIME "
 
 	sleep 1	
 
