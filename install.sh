@@ -11,6 +11,7 @@ sudo mkdir /usr/share/backgrounds/
 
 echo " copying files..."
 
+git clone https://github.com/addy-dclxvi/gtk-theme-collections ~/.themes
 sudo mv wallpaper.jpg /usr/share/backgrounds/
 chmod +x ~/dotfiles/config/panel.sh
 mv ratpoison/ratpoisonrc ~/.ratpoisonrc
