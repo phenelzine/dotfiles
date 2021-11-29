@@ -18,21 +18,13 @@ exec ratpoison -c "banish"
 #exec /usr/share/ratpoison/sloppy 
 #set border 3
 
-#dzen2 panels (left and right)
-#exec /home/mihail/leftpanel.sh
-#exec /home/mihail/rightpanel.sh
-
 #autostart#
-#exec nitrogen --restore
 exec setxkbmap it
 exec lxsession  
-exec feh --bg-scale /usr/share/backgrounds/Morskie\ Oko.jpg
+exec feh --bg-scale /usr/share/backgrounds/wallpaper.jpg
 
 #one dzen2 panel#
-exec /home/mihail/.config/panel.sh
-
-#polybar#
-#exec ~/.config/polybar/launch.sh
+exec ~/.config/panel.sh
 
 #workspaces#
 exec /usr/bin/rpws init 9 -k
