@@ -12,6 +12,7 @@ sudo mkdir /usr/share/backgrounds/
 echo " copying files..."
 
 sudo mv wallpaper.jpg /usr/share/backgrounds/
+chmod +x ~/dotfiles/config/panel.sh
 mv ratpoison/ratpoisonrc ~/.ratpoisonrc
 mv openbox/ ~/.config/openbox
 sudo mv wallpapers/* /usr/share/backgrounds/
