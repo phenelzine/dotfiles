@@ -1,14 +1,15 @@
 #Keyboard IT#
-setxkbmap it&
+setxkbmap it &
 
 #tint2 panel#
-tint2&
+tint2 &
 
 #wallpaper restore#
 nitrogen --restore &
+#feh --bg-scale /usr/share/backgrounds/wallpaper.jpg
 
 #essential applications#
-urxvt -e /usr/bin/zsh &
+alacritty -e /usr/bin/zsh &
 
 #polkit (LXSession)#
 lxsession &

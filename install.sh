@@ -15,7 +15,6 @@ git clone https://github.com/addy-dclxvi/gtk-theme-collections ~/.themes
 sudo mv wallpaper.jpg /usr/share/backgrounds/
 chmod +x ~/dotfiles/config/panel.sh
 mv ratpoison/ratpoisonrc ~/.ratpoisonrc
-mv openbox/ ~/.config/openbox
 sudo mv wallpapers/* /usr/share/backgrounds/
 rm README.md
 mv config/* ~/.config/
