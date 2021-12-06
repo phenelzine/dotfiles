@@ -17,7 +17,7 @@ chmod +x ~/dotfiles/config/panel.sh
 mv ratpoison/ratpoisonrc ~/.ratpoisonrc
 sudo mv wallpapers/* /usr/share/backgrounds/
 rm README.md
-mv config/* ~/.config/
+mv .config/* ~/.config/
 mv starship.toml ~/.config/
 mv .zshrc ~/.zshrc
 mv .bashrc ~/.bashrc
