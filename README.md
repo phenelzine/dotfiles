@@ -12,6 +12,13 @@ You know where to place stuff. Below are some screenshots. "script" not tested y
 
 
 
+![openbox 2](https://raw.githubusercontent.com/mihail-bogdanov/dotfiles/main/wallpapers/screenshots/Screenshot-1.png)
+
+
+
+
+
+
 
 #### ratpoison   
 
