@@ -7,8 +7,9 @@ echo "run as root"
 
 yay --needed --ask 4 -Sy - < packages.txt
 
-mkdir ~/.config
+mkdir ~/.config/
 mkdir /usr/share/backgrounds/
+mkdir ~/.themes/
 
 echo " copying files..."
 
@@ -22,6 +23,8 @@ mv config/* ~/.config/
 mv starship.toml ~/.config/
 mv zshrc ~/.zshrc
 mv bashrc ~/.bashrc
+mv pelangi-noita/ ~/.themes/
+mv Noita/ ~/.themes/
 systemctl enable ly
 systemctl enable plymouth
 
