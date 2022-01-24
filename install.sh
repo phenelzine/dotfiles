@@ -16,6 +16,7 @@ echo " copying files..."
 git clone https://github.com/addy-dclxvi/gtk-theme-collections ~/.themes
 mv wallpaper.jpg /usr/share/backgrounds/
 chmod +x ~/dotfiles/config/panel.sh
+mv icons/ ~/Images/icons/
 mv ratpoison/ratpoisonrc ~/.ratpoisonrc
 mv wallpapers/* /usr/share/backgrounds/
 rm README.md

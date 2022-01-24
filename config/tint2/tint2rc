@@ -223,7 +223,7 @@ separator_padding = 15 0
 #-------------------------------------
 # Button 1
 button = new
-button_icon = /home/mihail/Immagini/icons/yopta.png
+button_icon = ~/Images/icons/yopta.png
 button_text = 
 button_lclick_command = oblogout
 button_rclick_command = 
@@ -239,7 +239,7 @@ button_max_icon_size = 0
 #-------------------------------------
 # Button 2
 button = new
-button_icon = /home/mihail/Immagini/icons/terminal.png
+button_icon = ~/Images/icons/terminal.png
 button_text = 
 button_lclick_command = urxvt
 button_rclick_command = 
@@ -255,7 +255,7 @@ button_max_icon_size = 0
 #-------------------------------------
 # Button 3
 button = new
-button_icon = /home/mihail/Immagini/icons/files.png
+button_icon = ~/Images/icons/files.png
 button_text = 
 button_lclick_command = pcmanfm
 button_rclick_command = 
@@ -271,7 +271,7 @@ button_max_icon_size = 0
 #-------------------------------------
 # Button 4
 button = new
-button_icon = /home/mihail/Immagini/icons/globe.png
+button_icon = ~/Images/icons/globe.png
 button_text = 
 button_lclick_command = brave
 button_rclick_command = 
@@ -287,7 +287,7 @@ button_max_icon_size = 0
 #-------------------------------------
 # Button 5
 button = new
-button_icon = /home/mihail/Immagini/icons/geany.png
+button_icon = ~/Images/icons/geany.png
 button_text = 
 button_lclick_command = geany
 button_rclick_command = 
@@ -303,7 +303,7 @@ button_max_icon_size = 0
 #-------------------------------------
 # Button 6
 button = new
-button_icon = /home/mihail/Immagini/icons/4chann.png
+button_icon = ~/Images/icons/4chann.png
 button_text = 
 button_lclick_command = brave 4chan.org
 button_rclick_command = 
@@ -319,7 +319,7 @@ button_max_icon_size = 0
 #-------------------------------------
 # Button 7
 button = new
-button_icon = /home/mihail/Immagini/icons/foto.png
+button_icon = ~/Images/icons/foto.png
 button_text = 
 button_lclick_command = kazam
 button_rclick_command = 
@@ -335,7 +335,7 @@ button_max_icon_size = 0
 #-------------------------------------
 # Button 8
 button = new
-button_icon = /home/mihail/Immagini/icons/key.png
+button_icon = ~/Images/icons/key.png
 button_text = 
 button_lclick_command = keepassxc
 button_rclick_command = 
@@ -351,9 +351,9 @@ button_max_icon_size = 0
 #-------------------------------------
 # Button 9
 button = new
-button_icon = /home/mihail/Immagini/icons/runes.png
+button_icon = ~/Images/icons/runes.png
 button_text = 
-button_lclick_command = /home/mihail/Applications/RuneLite_78e70051188721896dca1a6699b74cbd.AppImage
+button_lclick_command = ~/Applications/RuneLite_78e70051188721896dca1a6699b74cbd.AppImage
 button_rclick_command = 
 button_mclick_command = 
 button_uwheel_command = 
@@ -367,7 +367,7 @@ button_max_icon_size = 0
 #-------------------------------------
 # Button 10
 button = new
-button_icon = /home/mihail/Immagini/icons/image.png
+button_icon = ~/Images/icons/image.png
 button_text = 
 button_lclick_command = gimp
 button_rclick_command = 
@@ -383,7 +383,7 @@ button_max_icon_size = 0
 #-------------------------------------
 # Button 11
 button = new
-button_icon = /home/mihail/Immagini/icons/arrow.png
+button_icon = ~/Images/icons/arrow.png
 button_text = 
 button_lclick_command = openbox --reconfigure
 button_rclick_command = 
