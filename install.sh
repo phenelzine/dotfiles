@@ -14,10 +14,10 @@ mkdir ~/.themes/
 echo " copying files..."
 
 git clone https://github.com/addy-dclxvi/gtk-theme-collections ~/.themes
-sudo mv wallpaper.jpg /usr/share/backgrounds/
+mv wallpaper.jpg /usr/share/backgrounds/
 chmod +x ~/dotfiles/config/panel.sh
 mv ratpoison/ratpoisonrc ~/.ratpoisonrc
-sudo mv wallpapers/* /usr/share/backgrounds/
+mv wallpapers/* /usr/share/backgrounds/
 rm README.md
 mv config/* ~/.config/
 mv starship.toml ~/.config/
