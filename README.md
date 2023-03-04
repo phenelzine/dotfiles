@@ -1,5 +1,6 @@
 # DOTFILES #   
 You know where to place stuff. Below are some screenshots. "script" *kinda* working.
+###### Note: you will have to install zsh_syntax_higlighting manually for now
 
 
 
