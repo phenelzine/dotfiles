@@ -20,14 +20,14 @@ CLEAN="^fg()^bg()"
 
 while true; do
 
-	XWINDOW=$(echo "Active Window: $PINK`echo $(xdotool getwindowfocus getwindowname)`$CLEAN")
+	XWINDOW=$(echo "Active Window: $PINK`echo $(xdotool getwindowfocus getwindowname | cut -d' ' -f1-2)`$CLEAN")	
 	TIME=$(echo "Date: $GREEN`echo $(date +"%a %d %B at %R")`$CLEAN")
 	BATTERYLINE=$(echo "Battery: $RED`cat /sys/class/power_supply/BAT0/capacity `%$CLEAN")		
 	KERNEL=$(echo "Kernel: $YELLOW`echo $(uname -r)`$CLEAN")
 	UPDATES=$(echo "Updates: $WHITE`echo $(checkupdates | wc -l)`$CLEAN")
 	UPTIME=$(echo "Uptime: $MAGENTA`echo $(uptime -p)`$CLEAN")
-	WIFILINE=$(echo "WiFi: $BLUE`echo $(iw dev wlan0 info | grep ssid | awk '{print $2}')`$CLEAN")
-
+	WIFILINE=$(echo "WiFi: $BLUE`echo $(systemctl is-active --quiet NetworkManager && echo Connected)`$CLEAN")
+	
 	echo "  $XWINDOW  |  $BATTERYLINE  |  $TIME  |  $KERNEL  |  $UPDATES  |  $WIFILINE  |  $UPTIME "
 
 	sleep 1	
