@@ -1,0 +1,48 @@
+
+! general appearance settings
+URxvt.font: xft:firacode:size=10
+URxvt.letterSpace: -1
+URxvt.scrollBar:                false
+URxvt*keysym.Shift-Control-C: perl:clipboard:copy
+URxvt*keysym.Shift-Control-V: perl:clipboard:paste
+URxvt.internalBorder:  10
+
+
+
+! colors
+
+*.foreground:   #babdb6
+*.background:   #131c26
+*.cursorColor:  #bbbbbb
+
+! black
+*.color0:       #000000
+*.color8:       #44475a
+
+! ! red
+*.color1:       #ff5555
+*.color9:       #ff5555
+
+! green
+*.color2:       #50fa7b
+*.color10:      #50fa7b
+
+! yellow
+*.color3:       #f1fa8c
+*.color11:      #f1fa8c
+
+! blue
+*.color4:       #bd93f9
+*.color12:      #bd93f9
+
+! magenta
+*.color5:       #ff79c6
+*.color13:      #ff79c6
+
+! cyan
+*.color6:       #8be9fd
+*.color14:      #8be9fd
+
+! white
+*.color7:       #bbbbbb
+*.color15:      #ffffff
