@@ -22,4 +22,4 @@ mv zshrc ~/.zshrc
 mv bashrc ~/.bashrc
 mv pelangi-noita/ ~/.themes/
 mv Noita/ ~/.themes/
-
+mv xinitrc ~/.xinitrc
