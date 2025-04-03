@@ -24,11 +24,12 @@ while true; do
 	TIME=$(echo "Date: $GREEN`echo $(date +"%a %d %B at %R")`$CLEAN")
 	BATTERYLINE=$(echo "Battery: $RED`cat /sys/class/power_supply/BAT0/capacity `%$CLEAN")		
 	KERNEL=$(echo "Kernel: $YELLOW`echo $(uname -r)`$CLEAN")
-	UPDATES=$(echo "Updates: $WHITE`echo $(checkupdates | wc -l)`$CLEAN")
+	UPDATES=$(echo "Updates: $WHITE`apt-get --just-print upgrade | grep "^Inst.*-security.*" | cut -d ' ' -f 2 | wc -l)`$CLEAN")
 	UPTIME=$(echo "Uptime: $MAGENTA`echo $(uptime -p)`$CLEAN")
-	WIFILINE=$(echo "WiFi: $BLUE`echo $(systemctl is-active --quiet NetworkManager && echo Connected)`$CLEAN")
-	
-	echo "  $XWINDOW  |  $BATTERYLINE  |  $TIME  |  $KERNEL  |  $UPDATES  |  $WIFILINE  |  $UPTIME "
+	WIFILINE=$(echo "WiFi: $BLUE` echo $(curl -Is  http://www.google.com | head -n 1)`$CLEAN")
+	RATPOISONLINE=$(echo "$RED `echo $(rpws current)/ `$CLEAN") 
+
+	echo "$RATPOISONLINE  |  $XWINDOW  |  $BATTERYLINE  |  $TIME  |  $KERNEL  |  $UPDATES  |  $WIFILINE  |  $UPTIME "
 
 	sleep 1	
 
