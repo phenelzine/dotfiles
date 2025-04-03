@@ -1,0 +1,22 @@
+#!/bin/bash
+
+
+# Various Dracula Color Codes
+# In An Array
+#
+
+array[0]="#ff92d0" #magenta
+array[1]="#5af78e" #green
+array[2]="#f4f99d" #yellow
+array[3]="#9aedfe" #cyan
+array[4]="#ff6e67" #red
+array[5]="#caa9fa" #violet
+
+
+# Randomizing The Array
+#
+
+size=${#array[@]}
+index=$(($RANDOM % $size))
+
+exec dmenu_run -fn "terminus-9" -nb "#131c26" -sf "#575b70" -sb "${array[$index]}"
